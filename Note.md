@@ -18,13 +18,15 @@
 
 ## Fire Alarm Systems
 ### CoreTypes of Fire Alarms Panle
-    - Conventional Panels: divide into several zones; ideal for smaller site
-    - Addressable Panel: unique ID to device(sensor) and pinpoint the precise location.
-    - Intelligent Panels: Addresable system to cloud system
+- Conventional Panels: divide into several zones; ideal for smaller site
+- Addressable Panel: unique ID to device(sensor) and pinpoint the precise location.
+- Intelligent Panels: Addresable system to cloud system
 
 ### Local Compliance & Standard
-    - Placement Requirement: Ready accessible zone (Fire Command Centre, guardhouse, main lobby, security room approved bby BOMBA)
-    - Mandatory Approvals: System must pass local inspection to secure or renew Fire Certificate(FC)
-    - Local Manufacturers & Brands: Program Electronisc Sdn Bhd, Demco Industries Sdn Bhd, and global brands Notifier & Hochiki
-    ![Alt text](https://programelectronic.my/fire-alarm-panel/)
-    ![GitHub Logo](https://githubassets.com)
+- Placement Requirement: Ready accessible zone (Fire Command Centre, guardhouse, main lobby, security room approved by BOMBA)
+- Mandatory Approvals: System must pass local inspection to secure or renew Fire Certificate (FC)
+- Local Manufacturers & Brands: Program Electronic Sdn Bhd, Demco Industries Sdn Bhd, and global brands Notifier & Hochiki
+
+![Program Electronic Fire Alarm Panel](https://programelectronic.my)
+
+![GitHub Logo](https://githubassets.com)
