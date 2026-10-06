@@ -27,3 +27,4 @@
     - Mandatory Approvals: System must pass local inspection to secure or renew Fire Certificate(FC)
     - Local Manufacturers & Brands: Program Electronisc Sdn Bhd, Demco Industries Sdn Bhd, and global brands Notifier & Hochiki
     ![Alt text](https://programelectronic.my/fire-alarm-panel/)
+    ![GitHub Logo](https://githubassets.com)
