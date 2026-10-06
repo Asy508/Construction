@@ -30,6 +30,7 @@ Niche operational architectures built for specific facility needs.
 ## The 3 Core Communication Patterns in ELV
 As an embedded electronics enthusiast, you will notice that no matter what the system is called, it will almost always use one of three distinct hardware communication methods to move data across a building:
 |Communication Type	|How It Works	|Where You See It|
+| :--- | :--- | :--- |
 |Power + Data Combined (2-Wire)	|Blends power and data on a single pair using voltage dips and current spikes.	|Fire Alarm SLC, DALI Lighting, Gas Detection arrays.|
 Differential Digital (Data Only)	Uses two dedicated wires (RS-485 / CAN Bus) to transmit complementary square waves. immune to noise, but requires separate power wires.	BACnet MS/TP, Modbus HVAC networks, Access Control readers.
 IP Networking (Ethernet)	High-speed data packets over twisted pairs. Can use PoE (Power over Ethernet) to inject 48VDC directly onto the data lines.	Modern IP CCTV cameras, BACnet/IP automation, Wi-Fi Access Points.
