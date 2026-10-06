@@ -32,8 +32,8 @@ As an embedded electronics enthusiast, you will notice that no matter what the s
 |Communication Type	|How It Works	|Where You See It|
 | :--- | :--- | :--- |
 |Power + Data Combined (2-Wire)	|Blends power and data on a single pair using voltage dips and current spikes.	|Fire Alarm SLC, DALI Lighting, Gas Detection arrays.|
-Differential Digital (Data Only)	Uses two dedicated wires (RS-485 / CAN Bus) to transmit complementary square waves. immune to noise, but requires separate power wires.	BACnet MS/TP, Modbus HVAC networks, Access Control readers.
-IP Networking (Ethernet)	High-speed data packets over twisted pairs. Can use PoE (Power over Ethernet) to inject 48VDC directly onto the data lines.	Modern IP CCTV cameras, BACnet/IP automation, Wi-Fi Access Points.
+|Differential Digital (Data Only)	|Uses two dedicated wires (RS-485 / CAN Bus) to transmit complementary square waves. immune to noise, but requires separate power wires.	|BACnet MS/TP, Modbus HVAC networks, Access Control readers.|
+|IP Networking (Ethernet)	|High-speed data packets over twisted pairs. Can use PoE (Power over Ethernet) to inject 48VDC directly onto the data lines.|Modern IP CCTV cameras, BACnet/IP automation, Wi-Fi Access Points.|
 
 ## Fire Alarm Systems
 ### CoreTypes of Fire Alarms Panle
