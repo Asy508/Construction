@@ -20,5 +20,5 @@ A SLC is a 2-wire loop connecting a fire alarm control panel FACP to addressable
     - Check for open, shorts, ground faults, double/duplicate addresses and loop resistance limits.
 
 - Example DIY:
-    - ![Example](../assets/graph.png)
+    - ![Example](/assets/graph.png)
 
