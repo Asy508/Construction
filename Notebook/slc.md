@@ -22,3 +22,4 @@ A SLC is a 2-wire loop connecting a fire alarm control panel FACP to addressable
 - Example DIY:
     - ![Example](/assets/graph.png)
 
+![SLC](/assets/slc_timing.jpg)
