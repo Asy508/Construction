@@ -29,4 +29,20 @@
 
 ![Program Electronic Fire Alarm Panel](https://programelectronic.my/wp-content/uploads/2022/03/FAP-a-01.jpg)
 
-![GitHub Logo](https://githubassets.com)
+- Every component must comply with MS-1745(Malaysia Standard adapt from BS-5839)
+
+### 3 Pillars of Fire Systems
+- Input device
+    - Smoke detector
+    - Heat detector
+    - Manual Call Points (MCP)
+
+- Output Devices (Notification & Interfacing)
+    - Siren & Flasher
+    - BMS/Scada Interfacing
+    - Auxiliary Controls
+
+- Wiring Topologies
+    - Conventional (Zone-based) : Uses 2-core fire-rated cables (like FP200 or PVC/Conduit) arranged in a radial circuit. If a detector fires, you only know the zone (e.g., Level 2, Zone A), not the exact room.
+    - Addressable (Loop-based) : • Uses a continuous loop starting and returning to the panel. It uses a digital protocol to talk to each device individually. If a detector triggers, the panel screen tells you exactly: "Device 045 - Level 3 Room 302".
+
