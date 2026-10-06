@@ -15,3 +15,14 @@
   - 6. Building Management System (BMS)
     - Helps monitor and control building systems, improving operational visibility, efficiency and centralized management.
 - The right ELV infrastructure doesn't just add technology it helps create safer, smarter and more efficient environments.
+
+## Fire Alarm Systems
+### CoreTypes of Fire Alarms Panle
+    - Conventional Panels: divide into several zones; ideal for smaller site
+    - Addressable Panel: unique ID to device(sensor) and pinpoint the precise location.
+    - Intelligent Panels: Addresable system to cloud system
+
+### Local Compliance & Standard
+    - Placement Requirement: Ready accessible zone (Fire Command Centre, guardhouse, main lobby, security room approved bby BOMBA)
+    - Mandatory Approvals: System must pass local inspection to secure or renew Fire Certificate(FC)
+    - Local Manufacturers & Brands: Program Electronisc Sdn Bhd, Demco Industries Sdn Bhd, and global brands Notifier & Hochiki
