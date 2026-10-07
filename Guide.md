@@ -34,6 +34,7 @@ If you want to start building your knowledge base immediately, I recommend looki
 - Look up BACnet: Download a free tool like YABE (Yet Another BACnet Explorer) on your PC. It will give you a visual idea of how data points are exposed over a building network.
 - Study standard BMS logic: Look up "Function Block Programming for BMS". It is very similar to visual programming or state-machine logic you might have seen in embedded software development.
 - Explore major manufacturers: Go to the documentation sections of brands like Honeywell (Trend/Alerton), Schneider Electric (EcoStruxure), Siemens (Desigo), or Johnson Controls. Read their product data sheets for DDC controllers to see how they layout their I/O terminals.
+  
 To help narrow down your first study topic, which branch of ELV excites you the most?
 - The Automation side (BMS, DDC, energy efficiency, HVAC control)
 - The Security/Safety side (CCTV, Access Control, Fire Alarms)
