@@ -8,7 +8,7 @@ To transition smoothly, you need to shift your mindset from a circuit board leve
 In embedded systems, you deal with short-distance chip communication. In ELV, you deal with building-wide communication. You must learn:
 - [BACnet](/Notebook/bacnet.md) (IP and MS/TP): The undisputed king of Building Automation. It allows different vendors' HVAC and control systems to talk to each other.
 - Modbus (RTU and TCP): Heavily used to read data from electrical meters, VFDs (Variable Frequency Drives), and generators.
-- ONVIF: The global standard protocol for IP cameras (CCTV) to communicate with Network Video Recorders (NVRs).
+- [ONVIF](/Notebook/onvif.md): The global standard protocol for IP cameras (CCTV) to communicate with Network Video Recorders (NVRs).
 
 ## 2. IT Networking & Structured Cabling
 
