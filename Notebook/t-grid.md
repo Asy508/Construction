@@ -57,6 +57,7 @@ flowchart LR
     H --> I[Next Process / Finish]
 
     %% CRITICAL: Invisible vertical links to lock into a 3x3 grid layout
+    E~~~B
     H~~~A
 ```
 
