@@ -35,3 +35,28 @@ flowchart TD
     style Row2 fill:none,stroke:none
     style Row3 fill:none,stroke:none
 ```
+```mermaid
+flowchart TD
+    %% Row 1 (Left to Right)
+    A[Reference line setting out] --> B[Common Hanger Installation]
+    B --> C[Baseline Hanger Rod Prefab/Install]
+    
+    %% Connect Row 1 to Row 2
+    C --> D[Suspension rod installation]
+    
+    %% Row 2 (Right to Left visual flow)
+    D --> E[Main frame fabrication & assembly]
+    E --> F[Main frame installation & levelling]
+    
+    %% Connect Row 2 to Row 3
+    F --> G[Main frame positioning & corner close-up]
+    
+    %% Row 3 (Left to Right visual flow)
+    G --> H[Install up blank panel]
+    H --> I[Next Process / Finish]
+
+    %% CRITICAL: Invisible vertical links to lock into a 3x3 grid layout
+    A ~~~ F ~~~ G
+    B ~~~ E ~~~ H
+    C ~~~ D ~~~ I
+```
