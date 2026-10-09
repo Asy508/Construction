@@ -35,7 +35,7 @@ flowchart LR
     A[Calculate Forces] --> B[Integrate Motion]
     B --> C[Apply Thermostat]
     C --> D[Record Data]
-    D --> A
+    
 ```
 ### Insulated Panel Classification
 
