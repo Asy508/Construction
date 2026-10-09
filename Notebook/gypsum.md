@@ -16,18 +16,17 @@
 
 ## Process
 
-```
-flowchar LR
-A[Layout marking & module division]-->B
-B[Fixed keel along the top & ground]-->C
-C[Fixed frame keel]-->D
-D[Install vertical keel]-->E
-E[Install doors and windows frames]-->F
-F[Install additional keel]-->G
-G[Install support kee]-->H
-H[Concealed wiring pipes]-->I
-I[Install the side cover panel]-->
-J[Filled with acoustuc insulation material]-->K
-K[Install the other side of the cover panel]-->L
-L[Seam and corner protection]
+```mermaid
+flowchart LR
+    A[Layout marking & module division] --> B[Fixed keel along the top & ground]
+    B --> C[Fixed frame keel]
+    C --> D[Install vertical keel]
+    D --> E[Install doors and windows frames]
+    E --> F[Install additional keel]
+    F --> G[Install support keel]
+    G --> H[Concealed wiring pipes]
+    H --> I[Install the side cover panel]
+    I --> J[Filled with acoustic insulation material]
+    J --> K[Install the other side of the cover panel]
+    K --> L[Seam and corner protection]
 ```
