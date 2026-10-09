@@ -31,7 +31,7 @@
 6. Finish product cleaning and packing
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[Calculate Forces] --> B[Integrate Motion]
     B --> C[Apply Thermostat]
     C --> D[Record Data]
