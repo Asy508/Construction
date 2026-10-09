@@ -68,5 +68,5 @@ flowchart TD
     C[c]
     D[d]
 
-    A-->B-->C--D
+    A-->B-->C-->D
  ```
