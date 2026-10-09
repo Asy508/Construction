@@ -58,6 +58,7 @@ flowchart LR
 
     %% CRITICAL: Invisible vertical links to lock into a 3x3 grid layout
     E~~~B
-    H~~~A
+    F~~~A
+    %%H~~~A
 ```
 
