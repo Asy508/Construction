@@ -6,7 +6,7 @@
 
 ```
 mermaid
-flowchar LR
+flowchart LR
 %% Row 1 (Left to Right)
 A[Reference line setting out]-->B[Common Hanger Installation]
 B-->C[Baseline Hnager Rod Prefabrication & Installation]

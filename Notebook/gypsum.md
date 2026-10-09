@@ -17,26 +17,36 @@
 ## Process
 
 ```mermaid
-flowchart LR
-    %% Row 1 (Left to Right)
+flowchart TD
+    %% Row 1: Left to Right
     A[Layout marking & module division] --> B[Fixed keel along top & ground]
     B --> C[Fixed frame keel]
     C --> D[Install vertical keel]
     
-    %% Transition 1 to Row 2
+    %% Transition down to Row 2
     D --> E[Install doors & windows frames]
     
-    %% Row 2 (Right to Left)
-    F[Install additional keel] <-- E
-    G[Install support keel] <-- F
-    H[Concealed wiring pipes] <-- G
+    %% Row 2: Right to Left (Forced visually by connecting E -> F -> G -> H)
+    E --> F[Install additional keel]
+    F --> G[Install support keel]
+    G --> H[Concealed wiring pipes]
     
-    %% Transition 2 to Row 3
+    %% Transition down to Row 3
     H --> I[Install the side cover panel]
     
-    %% Row 3 (Left to Right)
+    %% Row 3: Left to Right
     I --> J[Filled with acoustic insulation]
     J --> K[Install other side cover panel]
     K --> L[Seam and corner protection]
+
+    %% Invisible alignment links to force the structural snake layout
+    A ~~~ H
+    B ~~~ G
+    C ~~~ F
+    H ~~~ I
+    G ~~~ J
+    F ~~~ K
+    E ~~~ L
 ```
+
 
