@@ -37,7 +37,7 @@ flowchart TD
 ```
 
 ```mermaid
-flowchart TD
+flowchart LR
     %% Row 1 (Left to Right)
     A[Reference line setting out] --> B[Common Hanger Installation]
     B --> C[Baseline Hanger Rod Prefab/Install]
