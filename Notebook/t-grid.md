@@ -63,22 +63,14 @@ flowchart TD
 ```
 ```mermaid
 flowchart LR
-    subgraph Row1 [ ]
-        direction LR
-        A[A] --> B[B]
-        B --> C[C]
-    end
-
-    subgraph Row2 [ ]
-        direction RL
-        D[D] --> E[E]
-        E --> F[F]
-    end
-
+    %% Define Row 1 (Left to Right)
+    A --> B --> C
+    
+    %% Connect Row 1 to Row 2
     C --> D
     
-    %% Style to hide the subgraph boxes
-    style Row1 fill:none,stroke:none
-    style Row2 fill:none,stroke:none
+    %% Define Row 2 (Right to Left via explicit links)
+    E --> D
+    F --> E
 
 ```
