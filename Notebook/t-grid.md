@@ -63,25 +63,14 @@ flowchart TD
 ```
 ```mermaid
 flowchart TD
-    %% Row 1
-    A1[Node 1,1] --> A2[Node 1,2]
-    A2 --> A3[Node 1,3]
+    %% Row 1 (Left to Right)
+    A[A] --> B[B]
+    B --> C[C]
 
-    %% Row 2
-    B1[Node 2,1] --> B2[Node 2,2]
-    B2 --> B3[Node 2,3]
+    %% Connection down to Row 2
+    C --> D[D]
 
-    %% Row 3
-    C1[Node 3,1] --> C2[Node 3,2]
-    C2 --> C3[Node 3,3]
-
-    %% Vertical Connections
-    A1 --> B1
-    B1 --> C1
-    
-    A2 --> B2
-    B2 --> C2
-    
-    A3 --> B3
-    B3 --> C3
+    %% Row 2 (Right to Left)
+    D --> E[E]
+    E --> F[F]
 ```
