@@ -62,14 +62,18 @@ flowchart TD
     C ~~~ D ~~~ I
 ```
 ```mermaid
-flowchart LR
-    %% Row 1: Flows Right
+flowchart TD
+    %% Row 1 (Left to Right placement via invisible links)
     A --> B --> C
-    
-    %% Connection: Flows Down
+
+    %% Row 2 (Right to Left placement)
     C --> D
-    
-    %% Row 2: Flows Left (Arrows point left)
-    F <-- E <-- D
+    D --> E
+    E --> F
+
+    %% Force the vertical grid alignment (A above F, B above E)
+    A ~~~ F
+    B ~~~ E
+
 
 ```
