@@ -63,14 +63,13 @@ flowchart TD
 ```
 ```mermaid
 flowchart LR
-    %% Define Row 1 (Left to Right)
+    %% Row 1: Flows Right
     A --> B --> C
     
-    %% Connect Row 1 to Row 2
+    %% Connection: Flows Down
     C --> D
     
-    %% Define Row 2 (Right to Left via explicit links)
-    E --> D
-    F --> E
+    %% Row 2: Flows Left (Arrows point left)
+    F <-- E <-- D
 
 ```
