@@ -18,15 +18,25 @@
 
 ```mermaid
 flowchart LR
-    A[Layout marking & module division] --> B[Fixed keel along the top & ground]
+    %% Row 1 (Left to Right)
+    A[Layout marking & module division] --> B[Fixed keel along top & ground]
     B --> C[Fixed frame keel]
     C --> D[Install vertical keel]
-    D --> E[Install doors and windows frames]
-    E --> F[Install additional keel]
-    F --> G[Install support keel]
-    G --> H[Concealed wiring pipes]
+    
+    %% Transition 1 to Row 2
+    D --> E[Install doors & windows frames]
+    
+    %% Row 2 (Right to Left)
+    F[Install additional keel] <-- E
+    G[Install support keel] <-- F
+    H[Concealed wiring pipes] <-- G
+    
+    %% Transition 2 to Row 3
     H --> I[Install the side cover panel]
-    I --> J[Filled with acoustic insulation material]
-    J --> K[Install the other side of the cover panel]
+    
+    %% Row 3 (Left to Right)
+    I --> J[Filled with acoustic insulation]
+    J --> K[Install other side cover panel]
     K --> L[Seam and corner protection]
 ```
+
