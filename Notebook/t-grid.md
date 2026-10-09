@@ -62,15 +62,23 @@ flowchart TD
     C ~~~ D ~~~ I
 ```
 ```mermaid
-flowchart TD
-    %% Row 1 (Left to Right)
-    A[A] --> B[B]
-    B --> C[C]
+flowchart LR
+    subgraph Row1 [ ]
+        direction LR
+        A[A] --> B[B]
+        B --> C[C]
+    end
 
-    %% Connection down to Row 2
-    C --> D[D]
+    subgraph Row2 [ ]
+        direction RL
+        D[D] --> E[E]
+        E --> F[F]
+    end
 
-    %% Row 2 (Right to Left)
-    D --> E[E]
-    E --> F[F]
+    C --> D
+    
+    %% Style to hide the subgraph boxes
+    style Row1 fill:none,stroke:none
+    style Row2 fill:none,stroke:none
+
 ```
