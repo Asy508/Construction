@@ -61,4 +61,12 @@ flowchart TD
     B ~~~ E ~~~ H
     C ~~~ D ~~~ I
 ```
+ ```mermaid
+ flowchart LR
+    A[a]
+    B[b]
+    C[c]
+    D[d]
 
+    A-->B-->C--D
+ ```
