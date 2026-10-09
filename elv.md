@@ -18,3 +18,17 @@
 ## Day 5: Building Automation & Integration (BMS)
 	• Learn about the BMS (Building Management System) or Smart Home systems.
 	• Understand how ELV integration allows different systems to talk to each other (e.g., a card reader unlocking a door while telling the CCTV camera to record, and the BMS turning on the lights in that room).
+
+# Adjusted 5-Day Roadmap
+
+## Day 1: Construction Workflow & The ELV Department
+	• Learn how a project moves from Design to Site Construction.
+	• Map out the ELV team's role and locate your primary guide: the Weak Current System Manual.
+## Day 2: Core ELV Systems (Weak Current)
+	• Study Fire Alarm Systems, Addressable vs. Conventional loops, and Single-Line Circuits (SLC).
+## Day 3: Architectural Integration (Clean Room & Floors)
+	• Study the Clean Room Partition and Raised Floor manuals to understand where ELV devices and cables are physically mounted.
+## Day 4: Structural Protection & Heavy MEP Coordination
+	• Study Fireproof Sealing and HV/HV Electrical manuals to learn about fire stopping and avoiding electrical interference.
+## Day 5: Mechanical & Piping Coordination
+	• Study Air Conditioning Ductwork and Process Piping manuals to learn how to route ELV trays around massive utilities.
