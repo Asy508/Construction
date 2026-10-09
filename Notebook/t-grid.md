@@ -57,23 +57,6 @@ flowchart TD
     H --> I[Next Process / Finish]
 
     %% CRITICAL: Invisible vertical links to lock into a 3x3 grid layout
-    A ~~~ F ~~~ G
-    B ~~~ E ~~~ H
-    C ~~~ D ~~~ I
+    H~~~A
 ```
-```mermaid
-flowchart TD
-    %% Row 1 (Left to Right placement via invisible links)
-    A --> B --> C
 
-    %% Row 2 (Right to Left placement)
-    C --> D
-    D --> E
-    E --> F
-
-    %% Force the vertical grid alignment (A above F, B above E)
-    A ~~~ F
-    B ~~~ E
-
-
-```
