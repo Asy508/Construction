@@ -61,19 +61,25 @@ flowchart TD
     B ~~~ E ~~~ H
     C ~~~ D ~~~ I
 ```
- ```mermaid
- flowchart LR
-    A[a]
-    B[b]
-    C[c]
-    D[d]
-    E[e]
-    F[f]
-    G[g]
-    H[h]
-    flowchart TD
-    A-->B-->C
-    C-->D
-    D-->F-->G
+```mermaid
+flowchart TD
+    %% Row 1: Left to Right
+    A[a] --> B[b] --> C[c]
     
- ```
+    %% Connection down to Row 2
+    C --> D[d]
+    
+    %% Row 2: Right to Left visual flow
+    D --> E[e] --> F[f]
+    
+    %% Connection down to Row 3
+    F --> G[g]
+    
+    %% Row 3: Left to Right visual flow
+    G --> H[h]
+
+    %% Invisible alignment links to lock nodes into 3 strict columns
+    A ~~~ F ~~~ G
+    B ~~~ E ~~~ H
+    C ~~~ D
+```
