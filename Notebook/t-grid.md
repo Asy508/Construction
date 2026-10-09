@@ -62,7 +62,7 @@ flowchart TD
     C ~~~ D ~~~ I
 ```
 ```mermaid
-flowchart TD
+flowchart LR
     %% Row 1: Left to Right
     A[a] --> B[b] --> C[c]
     
@@ -79,7 +79,7 @@ flowchart TD
     G --> H[h]
 
     %% Invisible alignment links to lock nodes into 3 strict columns
-    %%A ~~~ F ~~~ G
-    %%B ~~~ E ~~~ H
-    %%C ~~~ D
+    A ~~~ F ~~~ G
+    B ~~~ E ~~~ H
+    C ~~~ D
 ```
