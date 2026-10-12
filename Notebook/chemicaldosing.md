@@ -27,13 +27,13 @@ A-->D
 B-->D
 C-->D
 
-D-->F-->G-->H-->B
+D-->E-->F-->G-->H-->B
 
 ```
 
 **Constant-Pressure Pumping Chemical Supply system**
 ```mermaid
-flowchar LR
+flowchart LR
 A[Unloading]
 B[Storage]
 C[Constant pressure transmision pipeline]
@@ -44,7 +44,7 @@ A-->B-->C-->D
 
 **Gravity Feed Chemical Supply System**
 ```mermaid
-flowchar LR
+flowchart LR
 A[Unloading]
 B[Rooftop Storage]
 C[Pipeline gravity flow]
