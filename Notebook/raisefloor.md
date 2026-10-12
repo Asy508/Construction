@@ -9,6 +9,7 @@
 
 1. Airflow honeycomb
     1. Number of holes : 1080 hole
+    
     |Diameter (mm) | Airflow rate (%)|
     | --- | --- |
     |6| 8.5|
