@@ -29,6 +29,7 @@ C-->D
 
 D-->E-->F-->G-->H-->B
 
+A~~B~~C
 ```
 
 **Constant-Pressure Pumping Chemical Supply system**
