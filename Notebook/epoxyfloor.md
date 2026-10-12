@@ -1,4 +1,4 @@
-# Interior Decoration (Epoxy Flooring, Eppoxy Spraying)
+# Interior Decoration (Epoxy Flooring, Epoxy Spraying)
 
 ## 1. Type of Epoxy
 
