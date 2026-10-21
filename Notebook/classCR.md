@@ -11,3 +11,5 @@ Standard cross-reference:
 |Class 10,000	|ISO 7	|10,000 per ft³	|~15% to 25%	|Assembly, final testing, backend packaging|
 |Class 1,000	|ISO 6	|1,000 per ft³	|~25% to 40%	|Photolithography inspection, wafer dicing|
 |Class 100	|ISO 5	|100 per ft³	|~60% to 70%	|Exposed silicon wafers, microchip fabrication|
+|Class 10	|ISO 4	|10 per ft³	|~90% to 100%	|Advanced semiconductor front-end manufacturing|
+
