@@ -6,7 +6,7 @@
     | Symbol | Description|
     | --- | --- |
     | '6x'| 6 cable|
-    | '300sq.mm | cable cross area size|
+    | '300sq.mm' | cable cross area size|
     | '1C'| single core|
     | 'XLPE/PVC' | inner insulator Cross-link PolyEtheline, outer insulator PVC|
     | 'E' | Earth cable in tray|
