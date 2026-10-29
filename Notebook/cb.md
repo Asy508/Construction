@@ -2,7 +2,7 @@
 
 ## List of Circuit Breaker
 
-1. <span style="color: red;">**MCB**</span> (Miniature Circuit Breaker)**: Used for final low-current branch circuits like lights and wall plugs (up to 125A).
+1. $\color{red}{\textbf{**MCB**}}$ (Miniature Circuit Breaker): Used for final low-current branch circuits like lights and wall plugs (up to 125A).
 2. **MCCB** (Molded Case Circuit Breaker): Used for heavy industrial machinery, motors, and sub-panel feeders (16A to 1600A+).
 3. **ACB** (Air Circuit Breaker): Used as the primary incoming switch at Main Switchboards directly after a transformer (800A to 6300A).
 4. **RCCB** / ELCB (Residual Current Circuit Breaker): A specialized life-safety device that monitors earth leakages to prevent electric shocks.
