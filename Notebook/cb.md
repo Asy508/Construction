@@ -21,3 +21,6 @@
 ## Molded Case Circuit Breaker
 
 ## Miniature Circuit Breaker
+
+## Vacuum Circuit Breaker
+
